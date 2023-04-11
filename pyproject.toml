@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "curso-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["raul-gomes <rsgomes86@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "curso_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.0"
+uvicorn = {extras = ["standard"], version = "^0.21.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
